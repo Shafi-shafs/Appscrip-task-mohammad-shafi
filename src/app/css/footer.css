@@ -1,0 +1,120 @@
+/* Footer.css */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+    /* Make the heading clickable for mobile */
+}
+
+.subscribe-container {
+    display: flex;
+    width: 140%;
+}
+
+.subscribe-input {
+    padding: 10px;
+    flex: 1;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.subscribe-button {
+    background-color: #555;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    display: block;
+    /* Always display on desktop */
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.currency-info {
+    margin-top: 20px;
+}
+
+.social-icons a img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.payment-icons img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.foooter-arrow1 {
+
+    margin-left: 214px;
+}
+
+.foooter-arrow2 {
+
+    margin-left: 200px;
+}
+
+.foooter-arrow3 {
+
+    margin-left: 208px;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-links,
+    .social-container {
+        display: none;
+        /* Hide the content by default on mobile */
+    }
+
+    .footer-links.open,
+    .social-container.open {
+        display: block;
+        /* Show content when section is open */
+    }
+
+    .subscribe-container {
+        display: flex;
+        width: 100%;
+    }
+}
