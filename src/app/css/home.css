@@ -47,14 +47,12 @@
     object-fit: contain;
 }
 
-/* Product title */
 .product-title {
     font-size: 18px;
     margin: 10px 0;
     width: 300px;
 }
 
-/* Styling for the login message or price details */
 .product-info,
 .login-message {
     font-size: 14px;
@@ -66,14 +64,12 @@
     align-items: center;
 }
 
-/* Favorite icon styling */
 .favorite-icon {
     font-size: 20px;
     color: #ff6b6b;
     cursor: pointer;
 }
 
-/* Sidebar Filter Styles */
 .top-bar {
     display: flex;
     justify-content: space-between;
@@ -127,7 +123,7 @@
     padding: 10px 0 0 0;
     color: red;
 }
-/* Sidebar styles */
+
 .filter-sidebar {
     position: absolute;
     top: 11px; 
@@ -196,7 +192,7 @@
     margin-bottom: 5px;
 }
 
-/* Adjust Product Grid When Sidebar is Open */
+
 .content-wrapper {
     display: flex;
     flex-direction: row;

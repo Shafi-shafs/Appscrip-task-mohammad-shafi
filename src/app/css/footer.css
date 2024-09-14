@@ -53,7 +53,6 @@ h4 {
     list-style-type: none;
     padding: 0;
     display: block;
-    /* Always display on desktop */
 }
 
 .footer-links li {
@@ -104,13 +103,11 @@ h4 {
     .footer-links,
     .social-container {
         display: none;
-        /* Hide the content by default on mobile */
     }
 
     .footer-links.open,
     .social-container.open {
         display: block;
-        /* Show content when section is open */
     }
 
     .subscribe-container {
