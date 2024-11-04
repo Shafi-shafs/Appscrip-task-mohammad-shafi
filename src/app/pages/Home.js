@@ -92,7 +92,7 @@ export default function Home() {
         </div>
         <div className="recommended">
           <select id="recommendations">
-            <option value="recommended">RECOMMENDED</option>
+            <option value="recommended">SORT</option>
             <option value="newest">Newest First</option>
             <option value="popular">Popular</option>
             <option value="price-low-high">Price: Low to High</option>
